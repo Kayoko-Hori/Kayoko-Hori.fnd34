@@ -1,10 +1,44 @@
 .image1{
-  float: inline-end;
-  width: 300px;
-  height: 200px;
+  float:none;
+  width: 200px;
+  height: 150px;
 }
 .image2{
-  float: inline-end;
-  width: 300px;
+  float: right;
+  width: 200px;
+  height: 150px;
+}
+.image3{
+  float: inline-start;
+  width: 550px;
+  height: 400px;
+  padding: 20px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 50px;
+}
+
+
+.wood-box{
+  width: 200px;
   height: 200px;
+  background-color: burlywood;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pink-box {
+  width: 300px;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
